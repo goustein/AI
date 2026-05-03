@@ -5,7 +5,7 @@ public class Gemma4App {
 
     public static void main(String[] args) {
         System.out.println("Starting application... checking Ollama connection...");
-
+  // added comment
         try {
             // 1. Build the connection to your local Ollama instance
             ChatLanguageModel model = OllamaChatModel.builder()
